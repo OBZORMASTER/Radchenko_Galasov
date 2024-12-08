@@ -1,0 +1,213 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f9f1df;
+}
+/* лінія сбоку */
+#fast_link {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: #f9f1df;
+}
+
+.fast_link1, .fast_link2, .fast_link3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 33.33%;
+}
+
+.fast_link1 a, .fast_link2 a, .fast_link3 a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fast_link1 {
+    background-color: #ff7669;
+}
+
+.fast_link2 {
+    background-color: #ffce5d;
+}
+
+.fast_link3 {
+    background-color: #879dff;
+}
+
+.fast_link1 h3, .fast_link2 h3, .fast_link3 h3 {
+    margin: 0%;
+    padding: 0%;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    font-size: 240%;
+    font-weight: lighter;
+}
+
+/*Бренди*/
+#brands {
+    display: flex;
+    border-top: 2px solid red;
+}
+
+.our_brands {
+    width: 45%;
+    margin-bottom: 0%;
+}
+
+.title_chicken {
+    margin-top: 20%;
+    border-bottom: 2px solid red;
+}
+
+.title_chicken h1 {
+    text-align: left;
+    width: 60%;
+    font-size: 360%;
+    font-weight: lighter;
+    color: red;
+    padding-left: 6%;
+}
+
+.title_chicken1 {
+    margin-top: 5%;
+    border-bottom: 2px solid red;
+}
+
+.title_chicken1 h3 {
+    text-align: left;
+    width: 80%;
+    font-size: 180%;
+    font-weight: lighter;
+    color: red;
+    padding-left: 6%;
+}
+
+.title_chicken_picture {
+    border-left: 2px solid red;
+    align-items: left;
+    margin-bottom: 0%;
+}
+
+.title_chicken_picture img {
+    width: 100%;
+}
+
+.title_chicken_button {
+    width: 100%;
+    height: 29%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    background-color: #e74c3c;
+    border-bottom: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.title_chicken_button:hover {
+    background-color: #9e2215;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.title_chicken_button a {
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.title_chicken_button h3 {
+    font-size: 240%;
+    font-weight: lighter;
+    color: #f9f1df;
+    text-align: center;
+    margin: 0;
+}
+
+/*картинка*/
+
+.justapic {
+    margin-top: -2%;
+    border-bottom: 2px solid red;
+}
+
+.justapic img {
+    width: 82%;
+}
+
+/*стати*/
+
+.stats_name {
+    border-bottom: 2px solid red;
+}
+
+.stats_name h1 {
+    text-align: left;
+    width: 60%;
+    font-size: 360%;
+    font-weight: lighter;
+    color: red;
+    padding-left: 3%;
+}
+
+.stat {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3%;
+    margin-top: 20px;
+}
+
+.our_stats {
+    padding: 3%;
+    text-align: center;
+}
+
+.our_stats img {
+    width: 100%;
+    height: auto;
+    max-width: 30%;
+    margin-bottom: 10px;
+}
+
+.catalog_text h3 {
+    font-size: 180%;
+    font-weight: lighter;
+    color: red;
+}
+
+/*список*/
+
+#list {
+    background-color: red;
+    margin-top: 1%;
+    margin-left: -21%;
+    padding: 1% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    gap: 8%;
+}
+
+#list h2 {
+    color: #f9f1df;
+    font-weight: lighter;
+    font-size: 280%;
+}

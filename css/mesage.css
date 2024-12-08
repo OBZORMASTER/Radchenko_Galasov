@@ -1,0 +1,63 @@
+#exstra {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    margin-top: 0.1%;
+    margin-bottom: 0.1%;
+}
+
+#message {
+    background-color: red;
+}
+
+#message h1 {
+    color: #f9f1df;
+    font-size: 200%;
+    width: 77%;
+   margin-left: 10%;
+    font-weight: lighter;
+}
+
+#message h3 {
+    color: red;
+    font-size: 150%;
+    font-weight: lighter;
+    margin: 0%;
+}
+
+#message a {
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+
+.button {
+    width: 18%;
+    background-color: #f9f1df;
+}
+
+.button:hover {
+    background-color: #fce3a8;
+}
+
+.close-btn {
+    position: absolute;
+    top: 13%;
+    left: 74%;
+    padding: 0.5 0.1%;
+    background-color: #f9f1df;
+    color: red;
+    border: none;
+    font-size: 110%;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background-color: #fce3a8;
+}
